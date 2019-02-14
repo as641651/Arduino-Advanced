@@ -13,11 +13,13 @@
 // Enter a MAC address and IP address for your controller below.
 // The IP address will be dependent on your local network.
 // gateway and subnet are optional:
-byte mac[] = { 
-  0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02 };
-IPAddress ip(192,168,1, 6);
-//IPAddress gateway(192,168,111, 1);
-//IPAddress subnet(255, 255,255, 0);
+//byte mac[] = { 
+//  0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x03 };
+
+byte mac[] = {0x74,0x69,0x69,0x2D,0x30,0x31};
+IPAddress ip(192,168,1, 123);
+IPAddress gateway(192,168,1, 1);
+IPAddress subnet(255, 255,255, 0);
 
 // telnet defaults to port 23
 EthernetServer server(23);
@@ -29,13 +31,14 @@ void setup() {
 
   // start the Ethernet connection:
   Serial.println("Trying to get an IP address using DHCP");
-  if (Ethernet.begin(mac) == 0) {
-    Serial.println("Failed to configure Ethernet using DHCP");
-    // initialize the ethernet device not using DHCP:
-    Ethernet.begin(mac, ip);     // If you want to manually assign an available IP address
-                                                  // to your Arduino, you can use this constructor outside the 
-                                                  // "if" statement.
-  }
+//  if (Ethernet.begin(mac,ip) == 0) {
+//    Serial.println("Failed to configure Ethernet using DHCP");
+//    // initialize the ethernet device not using DHCP:
+//    Ethernet.begin(mac, ip);     // If you want to manually assign an available IP address
+//                                                  // to your Arduino, you can use this constructor outside the 
+//                                                  // "if" statement.
+//  }
+  Ethernet.begin(mac,ip);
   // print your local IP address:
   Serial.print("My IP address: ");
   ip = Ethernet.localIP();

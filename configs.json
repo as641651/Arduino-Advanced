@@ -1,0 +1,59 @@
+{
+    "01_DCMotors_MotorControllerConnections.pdf": {
+        "code_url": "",
+        "page_id": 96501,
+        "page_name": "01_DCMotors_MotorControllerConnections",
+        "pdf": true
+    },
+    "02_MotorController_Links_Sketch.ipynb": {
+        "code_url": "https://github.com/as641651/Arduino-Advanced/blob/master/Sketches/02_L298N_MotorDriver/02_L298N_MotorDriver.ino",
+        "page_id": 96502,
+        "page_name": "02_MotorController_Links_Sketch",
+        "pdf": false
+    },
+    "03_ServoMotor_outline.pdf": {
+        "code_url": "",
+        "page_id": 96503,
+        "page_name": "03_ServoMotor_outline",
+        "pdf": true
+    },
+    "04_ServoMotors_implementation.ipynb": {
+        "code_url": "https://github.com/as641651/Arduino-Advanced/blob/master/Sketches/03_ServoMotor/03_ServoMotor.ino",
+        "page_id": 96504,
+        "page_name": "04_ServoMotors_implementation",
+        "pdf": false
+    },
+    "05_EthernetModule.ipynb": {
+        "code_url": "https://github.com/as641651/Arduino-Advanced/blob/master/Sketches/06_EchoServer/06_EchoServer.ino",
+        "page_id": 96505,
+        "page_name": "05_EthernetModule",
+        "pdf": false
+    },
+    "06_EthernetServer.ipynb": {
+        "code_url": "https://github.com/as641651/Arduino-Advanced/blob/master/Sketches/06_EchoServer/06_EchoServer.ino",
+        "page_id": 96506,
+        "page_name": "06_EthernetServer",
+        "pdf": false
+    },
+    "07_SocketServo.ipynb": {
+        "code_url": "https://github.com/as641651/Arduino-Advanced/blob/master/Sketches/07_SocketServo/07_SocketServo.ino",
+        "page_id": 96507,
+        "page_name": "07_SocketServo",
+        "pdf": false
+    },
+    "author": "Aravind Sankaran",
+    "dir_path": "/home/sankaran/exercise/ML/Arduino-Advanced/",
+    "dir_static": "files",
+    "file_list": [
+        "01_DCMotors_MotorControllerConnections.pdf",
+        "02_MotorController_Links_Sketch.ipynb",
+        "03_ServoMotor_outline.pdf",
+        "04_ServoMotors_implementation.ipynb",
+        "05_EthernetModule.ipynb",
+        "06_EthernetServer.ipynb",
+        "07_SocketServo.ipynb"
+    ],
+    "module_id": 96500,
+    "module_name": "Arduino-Advanced",
+    "tags": "DI"
+}
